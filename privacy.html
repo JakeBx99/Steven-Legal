@@ -1,87 +1,109 @@
-Privacy Policy
-Last updated: July 30, 2026
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Steven</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f0f0f;
+      color: #d1d1d1;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      padding: 60px 20px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 28px; color: #fff; margin-bottom: 6px; }
+    .meta { color: #666; font-size: 13px; margin-bottom: 48px; }
+    h2 { font-size: 16px; color: #fff; margin: 36px 0 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+    p { margin-bottom: 12px; color: #b0b0b0; }
+    ul { margin: 8px 0 12px 20px; color: #b0b0b0; }
+    ul li { margin-bottom: 6px; }
+    hr { border: none; border-top: 1px solid #222; margin: 40px 0; }
+    a { color: #7289da; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: July 30, 2026</p>
 
-Steven is a personal Discord bot project, not a commercial product or company.
+    <p>Steven is a personal Discord bot project, not a commercial product or company.</p>
 
----
+    <hr>
 
-1. What Steven Collects
+    <h2>1. What Steven Collects</h2>
+    <p>To function, Steven processes the following data:</p>
+    <ul>
+      <li>Discord user IDs and usernames (used in blacklist submissions and audit logs)</li>
+      <li>Roblox usernames and user IDs (used for player lookups and flagging)</li>
+      <li>ERLC server data fetched via the ERLC API, including player lists and session info</li>
+      <li>Proof images or video URLs submitted with blacklist requests</li>
+      <li>Action logs — records of bans, kicks, and alerts taken in your server, including timestamps and reasons</li>
+      <li>Server configuration — settings you configure per Discord server (e.g. age thresholds, whitelists, flagged item lists)</li>
+    </ul>
+    <p>Steven does not collect IP addresses, payment information, or any data outside of what is listed above.</p>
 
-To function, Steven processes the following data:
+    <hr>
 
-- Discord user IDs and usernames (used in blacklist submissions and audit logs)
-- Roblox usernames and user IDs (used for player lookups and flagging)
-- ERLC server data fetched via the ERLC API, including player lists and session info
-- Proof images or video URLs submitted with blacklist requests
-- Action logs — records of bans, kicks, and alerts taken in your server, including timestamps and reasons
-- Server configuration — settings you configure per Discord server (e.g. age thresholds, whitelists, flagged item lists)
+    <h2>2. How That Data Is Used</h2>
+    <p>Data is used solely to:</p>
+    <ul>
+      <li>Detect and action players in your ERLC server based on your configured rules</li>
+      <li>Store and retrieve whitelist and blacklist records</li>
+      <li>Log moderation history for your server's staff</li>
+      <li>Display stats and lookup results to authorised server staff</li>
+    </ul>
 
-Steven does not collect IP addresses, payment information, or any data outside of what is listed above.
+    <hr>
 
----
+    <h2>3. Data Storage</h2>
+    <p>Data is stored locally in a database on the host machine running Steven. It is not sent to any third-party analytics or tracking services.</p>
+    <p>Proof images submitted with blacklist requests may be uploaded to third-party image hosting services (such as ImgBB or freeimage.host) to generate a permanent URL. These services have their own privacy policies.</p>
 
-2. How That Data Is Used
+    <hr>
 
-Data is used solely to:
+    <h2>4. Who Can See Your Data</h2>
+    <p>Steven's data is only accessible to:</p>
+    <ul>
+      <li>Server administrators and staff with the appropriate Discord permissions within their own server</li>
+      <li>The developer running Steven (me), for maintenance and debugging purposes</li>
+    </ul>
+    <p>Blacklist data submitted through one server may be visible to staff in other servers that also use Steven, as the blacklist is global by design. No data is sold or shared with third parties.</p>
 
-- Detect and action players in your ERLC server based on your configured rules
-- Store and retrieve whitelist and blacklist records
-- Log moderation history for your server's staff
-- Display stats and lookup results to authorised server staff
+    <hr>
 
----
+    <h2>5. Third-Party Services</h2>
+    <p>Steven integrates with:</p>
+    <ul>
+      <li>ERLC API (api.erlc.gg) — to read live server data</li>
+      <li>Roblox APIs — to look up player account info</li>
+      <li>Image hosting services (ImgBB, freeimage.host, Imgur) — for proof image persistence</li>
+    </ul>
+    <p>Use of these services is subject to their own terms and privacy policies.</p>
 
-3. Data Storage
+    <hr>
 
-Data is stored locally in a database on the host machine running Steven. It is not sent to any third-party analytics or tracking services.
+    <h2>6. Data Deletion</h2>
+    <p>You can request deletion of your data by contacting me directly. Server-specific data (action logs, whitelists, config) can be cleared on request. Global blacklist entries require review before removal.</p>
 
-Proof images submitted with blacklist requests may be uploaded to third-party image hosting services (such as ImgBB or freeimage.host) to generate a permanent URL. These services have their own privacy policies.
+    <hr>
 
----
+    <h2>7. Children</h2>
+    <p>Steven is not intended for use by anyone under 13. If you are under 13, do not use this bot.</p>
 
-4. Who Can See Your Data
+    <hr>
 
-Steven's data is only accessible to:
+    <h2>8. Changes</h2>
+    <p>This policy may be updated from time to time. Continued use of the bot after changes means you accept the updated policy.</p>
 
-- Server administrators and staff with the appropriate Discord permissions within their own server
-- The developer running Steven (me), for maintenance and debugging purposes
+    <hr>
 
-Blacklist data submitted through one server may be visible to staff in other servers that also use Steven, as the blacklist is global by design.
-
-No data is sold or shared with third parties.
-
----
-
-5. Third-Party Services
-
-Steven integrates with:
-
-- ERLC API (api.erlc.gg) — to read live server data
-- Roblox APIs — to look up player account info
-- Image hosting services (ImgBB, freeimage.host, Imgur) — for proof image persistence
-
-Use of these services is subject to their own terms and privacy policies.
-
----
-
-6. Data Deletion
-
-You can request deletion of your data by contacting me directly. Server-specific data (action logs, whitelists, config) can be cleared on request. Global blacklist entries require review before removal.
-
----
-
-7. Children
-
-Steven is not intended for use by anyone under 13. If you are under 13, do not use this bot.
-
----
-
-8. Changes
-
-This policy may be updated from time to time. Continued use of the bot after changes means you accept the updated policy.
-
----
-
-9. Contact
-
-For questions or data requests, contact the developer directly via Discord or the associated support server.
+    <h2>9. Contact</h2>
+    <p>For questions or data requests, contact the developer directly via Discord or the associated support server.</p>
+  </div>
+</body>
+</html>
